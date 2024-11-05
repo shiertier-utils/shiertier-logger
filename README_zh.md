@@ -1,6 +1,6 @@
 # shiertier_logger
 
-[English](https://github.com/shiertier-utils/shiertier-logger/blob/main/README.md) | 中文
+[English](https://github.com/shiertier-utils/shiertier_logger/blob/main/README.md) | 中文
 
 ## 简介
 
