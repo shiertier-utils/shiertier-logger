@@ -26,8 +26,9 @@ try:
 except ImportError:
     logger.warning("shiertier_i18n not found, can't use translation support")
     def i18n(message: str, replace_dict: Dict[str, Any] = None) -> str:
-        for key, value in replace_dict.items():
-            message = message.replace(key, value)
+        if replace_dict:
+            for key, value in replace_dict.items():
+                message = message.replace(key, value)
         return message
 
 class Logger_I18n:
